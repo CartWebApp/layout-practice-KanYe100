@@ -23,7 +23,7 @@ nav > ul {
     text-decoration: none;
     border: solid 1px white;
     border-radius: 1px;
-    border-color: rgb(140, 141, 144);
+    border-color: rgba(140, 141, 144, 0.404);
     transition: all ease 150ms;
     width: 60px;
     height: 5px;
@@ -56,7 +56,7 @@ nav > ul {
 h1 {
   font-size: 50px;
   align-self: center;
-  text-shadow: 1px 1px black;
+  text-shadow: 2px 2px 1px black;
 }
 
 .Hero p {
@@ -70,8 +70,9 @@ h1 {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
+    gap: 80px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #Headline1 h4 {
@@ -117,7 +118,7 @@ h4 {
 
 .GreenButton {
   align-self: center;
-  margin-bottom: 20px;
+  margin-top: 100px;
 }
 
 
@@ -133,7 +134,7 @@ h4 {
 
 .SeeDetails {
   align-self: center;
-  margin-bottom: 20px;
+  margin-top: 100px;
 }
 
 #Headline2 a {
@@ -151,6 +152,22 @@ h4 {
   flex-direction: column;
   background-color: rgb(231, 231, 231, 0.71);
   grid-column: 6 / 8;
+
+}
+
+#Headline3 a {
+  background-color: rgb(93, 154, 185);
+  color: rgb(240, 255, 255);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 125px;
+  text-align: center;
+}
+
+.RedButton {
+  align-self: center;
+  margin-top: 100px;
 }
 
 #Headline4 {
@@ -160,6 +177,10 @@ h4 {
   grid-column: 2 / 5;
 }
 
+#Headline4 h3 {
+  align-self: center;
+}
+
 #Headline5 {
   display: flex;
   flex-direction: column;
@@ -167,7 +188,143 @@ h4 {
   grid-column: 5 / 8;
 }
 
+#Headline5 h3 {
+  align-self: center;
+}
+
 #Headline1 img, #Headline2 img, #Headline3 img, #Headline4 img, #Headline5 img {
   width:100%;
 }
 
+.Services {
+  display: flex;
+  background-image: url(/layout-01-assets/img13.jpg);
+  padding: 100px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  background-size: cover;
+  padding: 200px;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  
+}
+
+.Services h2 {
+  align-self: center;
+  margin-top: -60px;
+  text-shadow: 1px 1px 1px black;
+  font-size: xx-large;
+}
+
+ .Services p {
+  align-self: center;
+  padding-left: 700px;
+  padding-right: 700px;
+  font-size: large;
+  text-align: center;
+}
+
+.Section2 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 40px;
+  margin-top: 100px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.Column1, .Column2, .Column3, .Column4 {
+  background-color: rgb(231, 231, 231, 0.71);
+  height: 500px;
+}
+
+.Column1 {
+  grid-column: 3 / 3;
+
+}
+
+.Column2 {
+  grid-column: 4 / 4;
+}
+
+.Column3 {
+  grid-column: 5 / 5;
+
+}
+
+.Column4 {
+  grid-column: 6 / 6;
+
+}
+
+.OneBigColumn {
+  grid-column: 3 / 7;
+  background-color: rgb(231, 231, 231, 0.71);
+  height: 800px;
+}
+
+.Column1 img, .Column2 img, .Column3 img, .Column4 img {
+  height: 50%;
+  
+}
+
+.OneBigColumn img {
+  height: 55%;
+}
+
+.Column1 img, .Column2 img, .Column3 img, .Column4 img, .OneBigColumn img {
+  width: 100%;
+}
+
+.Column1 p, .Column2 p, .Column3 p, .Column4 p, .OneBigColumn p {
+  display: flex;
+  color: rgb(21, 21, 21);
+  margin-left: 20px;
+  margin-right: 20px; 
+  font-size: smaller;
+
+}
+
+.Column1 h3, .Column2 h3, .Column3 h3, .Column4 h3 {
+  text-align: center;
+}
+
+.OneBigColumn h3 {
+  padding-left: 20px;
+}
+
+.Column2 a, .Column4 a, .OneBigColumn a {
+  text-decoration: none;
+  color: rgba(139, 137, 137, 0.997);
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(26, 20, 20, 0.245);
+  align-items: center;
+}
+
+.OneBigColumn p {
+  padding-bottom: 20px;
+}
+
+.OneBigColumn a {
+  font-size: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.Column2 a {
+  margin-left: 60px;
+}
+
+.Column4 a {
+  margin-left: 60px;
+}
+
+.Contact {
+  display: flex;
+  background-image: url(/layout-01-assets/img14.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+}
