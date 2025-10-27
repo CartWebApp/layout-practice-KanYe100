@@ -85,8 +85,13 @@ h4 {
 
 
 
+#Headline1, #Headline2, #Headline3 {
+  height: 600px;
+}
 
-
+#Headline4, #Headline5 {
+  height: 700px;
+}
 
 #Headline1 {
   display: flex;
@@ -186,7 +191,6 @@ h4 {
   flex-direction: column;
   background-color: rgba(231, 231, 231, 0.71);
   grid-column: 5 / 8;
-  height: 850px;
 }
 
 #Headline5 h3 {
